@@ -1,0 +1,29 @@
+----- JAVASCRIPT -----
+- Javascript is interpreted language, means it is executed line by line. (so dont need for complie the code).
+
+- It is dynamic programming language which is used for creating interactive effects or actions within web browsers.
+
+- such as Actions- enables interactivity.
+		  Updates - Alters page without reloading.(navigating menu)
+		  Events - Responds to user.(button clicks, event listerner, theme change)
+		  Data - fetches and send info to server.(Forms submission, user info fetch)
+		  
+- Applications in frontend - React js, angular, vue js, etc
+- Applications in Backend(server side) - Node js, express js, etc
+- Applications for desktop app - electron , NW.js (teams and all).
+
+- Runtime environments - executes on browsers which includes javascript engines..
+	Chrome - Google v8
+	Firefox - spider Monkey
+	edge - chakra 
+	safari - Nitro
+
+- Node.js extends javascript capabilites to server side programming which basically uses v8 engine.
+
+- Asynchronous Support - (non blocking operations with event loops, callbacks and promises). 
+
+- ECMA (called as akma) ecmascript is an standardized specification.
+
+- console.log('Hello'); - basic way of logging.
+
+- 
