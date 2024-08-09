@@ -1,3 +1,19 @@
---------- Design Patterns -------
+--------- Design Patterns Using java -------
 
-Lets start..!!
+- Design patterns are the solutions to the problems occurring in software design. 
+- Design patterns represent an idea.
+
+- CATEGORIZATION DESIGN PATTERN.(3 types)
+
+-- Creational Design pattern - approch for creating object.
+	- Factory Pattern, Builder Pattern, Singleton Pattern .. etc
+
+-- Structural Design Pattern - approch for structing the code for eg. how functions can be made well structed.
+	- Proxy pattern, Adaptor Pattern etc..
+
+-- Behavioral Design pattern - interact with object, how object behaves, loose coupling, interaction between two objects
+	- Observer pattern, state pattern, iterator pattern etc..
+
+
+--------- Singleton Design Pattern -------------
+
