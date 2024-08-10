@@ -26,4 +26,111 @@
 
 - console.log('Hello'); - basic way of logging.
 
-- 
+- Arithmetic Operators (+, -, *, /, %) - here % modulus operator results remainder.
+
+- Variables are like containers used for storing data values. (3 ways to declare a variable - var, let, const)
+	Declare a variable with var - var a = "Shubham";
+						 		  var b = 100;
+						 		  var c = true;
+
+	Declare a varible with let - let mobile = 2;
+								 let msg = "hello techies";
+
+- variables naming convention like it should not be start with number, cant use reserved keywords, no special character except $ and _
+
+- Difference between declare types - var, let, const
+	- var is olden way to create a variable and let is mostly used currently and const also.
+	- var is not restrictive means it does not have any scope like it can be access from anywhere.(once made ...... made)
+	- let is restrictive means it has scope like some protective shield it can be used inside that only, cant access from outside.
+	- const is more restrictive than let, you cant swap items later means once value gone inside cant change it.
+	- we cant change the value assigned to const variable and if we did so it will give error "Assigment to constant variable."
+
+- Datatypes in JS
+	- primitive and Non primitive
+	- primitive types - String, number, boolean, null, undefined.
+	- Non primitive types - objects, array, function
+	- Primitive types are immutable meaning values cannot be changed.
+
+- Strings can be defined as single quotes (''), double quotes(""), backtick (``)
+
+- Strings defined in backtick has an advantage if we want to concat another string to it then we can simply put ${name of another string} under backtick.
+
+- typeof operator - tells us datatype of variable.
+
+- comparison operator - 
+	- Equality (==, ===)
+	- inequality (!=, !==)
+	- relational (> , <, >=, <=)
+
+- Logical Operators
+	- And (&&) - true and true then true
+	- OR (||) - false and false then false
+	- not (!) - not this or that 
+
+- Functionsis 
+	- we can create fumctions and use everywhere means write once and use to prevent repeative code.
+	- it can also return values and also you can give values to it as an parameters.
+
+- Loops
+	- it are basically used where we arre going to do iteration means same work 10 times.
+	- types of loop - for, while, do while
+
+- Callbacks
+	- callback is an function passed as an argument to another function, which is invoked inside the outer function to complete some kind of routine or action.
+	- callbacks are commonly used in asynchronous programming to execute code after an asychronous operation has completed.
+
+- Anonymous functions as value.
+	- This are the functions without name.
+	- same like callback it is also often used as arguments to other function or assigned to variable.
+
+- ------ Advanced Javascript ------
+- Object oriented language
+	- groups multiply values together in key value pairs.
+	- define using {} to enclose properties.
+	- . dot operator to access values.
+	- pros - organzies related data under a single name.
+
+- To access an object mainly two ways
+	- dot notation - .name
+	- bracket notation - ['name']
+
+- References
+	- Objects works on reference type
+	- check the reference.js file.
+
+- Arrays
+	- Arrays are basically just a list of values.
+	- arrays index starts with zero.
+	- so it is used to store multiple values in a single variable.
+	- created by using square brackets [];
+	- in other languages we had seen we had to define type for array whereas in js we can store any type of value in array enclosed by [];
+	- Arrays are also used as reference like object.
+
+- Arrow functions
+	- => used for mostly anonymous function call or single line work.
+
+- Spread operator in array 
+	- ... is used to spread operator it basically good idea to create an copy of copy. 
+	- same spread opeartor we can use for object also.. !!
+
+-  Rest Operator same like  spread but its is used for assigning the rest 
+
+- Promises
+	- promises is also called as callback hell means when baiscally we go into callback then another callback ... and continues.
+	- so now promises has 3 stages 
+		- pending - initial stage niether completed nor rejected.
+		- fullfilled - completed successfully
+		- rejected - failed.
+	- promises are created using the promise constructor, which takes an executor function with two arguments resolve and reject. 
+	- lets see how to use 
+		- promises have then, catch, finally methods for handling the results of asynchronous operation.
+		- then() - used for handling fulfillment.
+		- catch() - used for handling rejection.
+		- finally() - executes the block of code regardless of promise's outcome.
+
+
+
+
+
+
+
